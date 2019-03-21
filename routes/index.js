@@ -1,6 +1,6 @@
 var express = require('express'),
   passport = require('passport'),
-  wecomeMessage = 'Welcome to YelpCamp! ';
+  wecomeMessage = 'Welcome to WildernessHelper! ';
 var router = express.Router();
 
 var User = require('../models/user');
