@@ -79,7 +79,7 @@ app.use('/campgrounds/:campground_id/comments', commentRoutes);
 // Listener! //
 // ===========//
 
-app.listen(process.env.PORT, process.env.IP, function() {
+app.listen(3000, process.env.IP, function() {
   var appConsoleMsg = 'WildernessHelper server has started: ';
   appConsoleMsg += process.env.IP + ':' + process.env.PORT;
   console.log(appConsoleMsg);
